@@ -1,0 +1,26 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+.timer-box1 {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid white;
+    background-color: hotpink;
+    float: left;
+}
+
+.to-do-list {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid white;
+    background-color: hotpink;
+    float: left;
+}
