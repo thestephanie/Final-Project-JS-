@@ -8,19 +8,21 @@ body {
 .timer-box1 {
     height: 400px;
     width: 400px;
-    padding: 20px;
+    padding: 40px;
     margin: 50px;
     border: 10px solid white;
     background-color: hotpink;
     float: left;
+    display: inline-block;
 }
 
 .to-do-list {
     height: 400px;
     width: 400px;
-    padding: 20px;
+    padding: 40px;
     margin: 50px;
     border: 10px solid white;
     background-color: hotpink;
-    float: left;
+    float: right;
+    display: inline-block;
 }
