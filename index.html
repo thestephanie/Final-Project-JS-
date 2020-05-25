@@ -2,17 +2,30 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css"/>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+   <div class="title-section"> 
     <h1>Welcome to my Final Project!</h1>
     <h2>If you need to get things done, you've come to the right place!</h2>
-
+    </div>
     <div class="main-container">
-        
+        <div class="rules">
+        <p> Rules of the page: 
+            <br>
+            <ol>
+                <li>Come in with a positive attitude on one hand, and your to-do list on the other </li>
+                <li>You must be working towards your task while timer is on </li>
+                <li>Don't touch your cell phone while your timer is on </li>
+                <li>Take a 5 minute break after each 25 minute session </li>
+            </ol>
+        </p>
+        </div>
+        <div class="pomodoro-video">
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/WqBuh4HWu8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <div class="timer-box1">
             <h3>Timer</h3>
             <span class="timer-text">25:00</span>
@@ -24,13 +37,9 @@
                 <label for="item">Enter a new item:</label>
                 <input class="enter-item-input" type="text" name="item" id="item">
                 <button class="add-item-button">Add item</button>
-              </div>
-          
-              <ul class="list">
-          
-              </ul>
+            </div>
+              <ul class="list"></ul>
         </div> <!--closing for to-do-list-->
-
     </div> <!--closing for main-container!-->
     <script src="index.js"></script>
 </body>

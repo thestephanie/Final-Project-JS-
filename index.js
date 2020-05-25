@@ -1,4 +1,5 @@
 // Code below is for to-do list. 
+
 const list = document.querySelector('.list');
 const input = document.querySelector('.enter-item-input');
 const button = document.querySelector('.add-item-button');
