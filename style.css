@@ -1,58 +1,57 @@
 body {
-    background-color: lightpink;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-image: url(paper.png);
+    background-size: cover;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.title {
+    border: 10px solid; 
 }
 
 .main-container {
     border: 10px solid;
-    display: inline-block;
+    background-image: url(corkboard.jpg);
 }
 
 .title-section {
     text-align: center;
 }
 
-.rules {
+.top-left-rules {
     height: 200px;
     width: 400px;
     padding: 30px;
     margin: 50px;
-    border: 10px dotted white;
-    background-color: hotpink;
-    float: left;
+    text-align: left;
+    background-image: url(sticky.png)
 }
 
-.pomodoro-video {
+.top-right-video {
     height: 200px;
     width: 400px;
     padding: 30px;
     margin: 50px;
-    border: 10px dotted white;
-    background-color: hotpink;
-    float: left;
+    background-image: url(sticky.png)
 }
 
-.timer-box1 {
+.bottom-left-timer-box1 {
     height: 200px;
     width: 400px;
-    padding: 40px;
+    padding: 30px;
     margin: 50px;
-    border: 10px solid white;
     background-color: hotpink;
-    float: left;
-    display: inline-block;
     text-align: center;
+    background-image: url(sticky.png)
 }
 
-.to-do-list {
+.bottom-right-to-do-list {
     height: 200px;
     width: 400px;
-    padding: 40px;
+    padding: 30px;
     margin: 50px;
-    border: 10px solid white;
     background-color: hotpink;
-    float left;
-    display: inline-block;
     text-align: center;
+    background-image: url(sticky.png)
 }

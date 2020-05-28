@@ -4,15 +4,18 @@
     <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Final-Project-JS</title>
 </head>
 <body>
-   <div class="title-section"> 
+   <Header class="title-section"> 
+    <div class="title"> 
     <h1>Welcome to my Final Project!</h1>
     <h2>If you need to get things done, you've come to the right place!</h2>
-    </div>
+    </div>   
+</Header>
     <div class="main-container">
-        <div class="rules">
+    <div class="top-half">
+        <div class="top-left-rules">
         <p> Rules of the page: 
             <br>
             <ol>
@@ -22,23 +25,24 @@
                 <li>Take a 5 minute break after each 25 minute session </li>
             </ol>
         </p>
-        </div>
-        <div class="pomodoro-video">
+        </div> <!--closing for rules-->
+        <div class="top-right-video">
             <iframe width="400" height="200" src="https://www.youtube.com/embed/WqBuh4HWu8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="timer-box1">
+        </div> <!--clsoing for pomodoro video-->
+    </div> <!--closing for top half-->
+    <div class="bottom-half">
+        <div class="bottom-left-timer-box1">
             <h3>Timer</h3>
             <span class="timer-text">25:00</span>
             <button class="start-button">Start</button>
         </div> <!--closing for timer-box1-->
-        <div class="to-do-list">
+    </div> <!--closing for bottom half-->
+        <div class="bottom-right-to-do-list">
             <h3>To-do List</h3>
-            <div>
-                <label for="item">Enter a new item:</label>
-                <input class="enter-item-input" type="text" name="item" id="item">
-                <button class="add-item-button">Add item</button>
-            </div>
-              <ul class="list"></ul>
+            <label for="item">Enter a new item:</label>
+            <input class="enter-item-input" type="text" name="item" id="item">
+            <button class="add-item-button">Add item</button>
+            <ul class="list"></ul>
         </div> <!--closing for to-do-list-->
     </div> <!--closing for main-container!-->
     <script src="index.js"></script>
