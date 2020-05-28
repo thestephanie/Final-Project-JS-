@@ -55,3 +55,11 @@ body {
     text-align: center;
     background-image: url(sticky.png)
 }
+
+.enter-item-input {
+    border-radius: 15px;
+}
+
+.enter-item-button {
+    
+}
